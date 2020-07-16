@@ -5,6 +5,13 @@ window.addEventListener('load', start);
 function start() {
   console.log('Página carregada');
 
+  var colors = Array;
+  colors[0] = 0;
+  colors[1] = 0;
+  colors[2] = 0;
+
+  setColor(colors);
+
   // Capturando os valores do Input Range
   var range_r = document.querySelector('#R');
   range_r.addEventListener('input', changeValues);
